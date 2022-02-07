@@ -1,3 +1,5 @@
-x = int(input(":"))
-for i in range(3,7):
-  print(x ** i)
+x = int(input())
+if x %2 == 0:
+  print('even')
+else:
+  print('odd')
