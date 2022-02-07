@@ -1,5 +1,3 @@
-a = [0, 1, 2, 3, 4, 5, 6]
-res = []
-for i in a:
-    res.append(3 ** i)
-print(res)
+x = int(input(":"))
+for i in range(3,7):
+  print(x ** i)
